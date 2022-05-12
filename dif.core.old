@@ -1,0 +1,89 @@
+CAPI=2:
+
+name: "bci:sw:dif:1.0"
+description: "dif"
+
+filesets:
+  files_dif:
+    depend:
+      - bci:sw:base:1.0 
+    files:
+      - dif_warn_unused_result.h :  {is_include_file: true}
+      - dif_gpio.h :                {is_include_file: true}
+      - regs/gpio_regs.h :          {is_include_file: true}
+      - dif_gpio.c
+      - dif_aon_timer.h :           {is_include_file: true}
+      - regs/aon_timer_regs.h :     {is_include_file: true}
+      - dif_aon_timer.c
+      - dif_rv_timer.h :            {is_include_file: true}
+      - regs/rv_timer_regs.h :      {is_include_file: true}
+      - dif_rv_timer.c
+      - dif_plic.h :                {is_include_file: true}
+      - regs/rv_plic_regs.h :       {is_include_file: true}
+      - dif_plic.c
+      - dif_uart.h :                {is_include_file: true}
+      - regs/uart_regs.h :          {is_include_file: true}
+      - dif_uart.c
+      - dif_rstmgr.h :              {is_include_file: true}
+      - regs/rstmgr_regs.h :        {is_include_file: true}
+      - dif_rstmgr.c
+    file_type: swCSource
+  files_testing:
+    depend:
+      - bci:sw:base:1.0
+    files:
+      - test_main.h :     {is_include_file: true}
+      - check.h :         {is_include_file: true}
+      - test_coverage.h : {is_include_file: true}
+      - test_status.h :   {is_include_file: true}
+      - test_main.c
+      - test_status.c
+      - mask_rom_test.h : {is_include_file: true}
+      - test_coverage_none.c
+    file_type: swCSource
+  files_runtime:
+    depend:
+      - bci:sw:base:1.0
+    files:
+      - log.h  :          {is_include_file: true}
+      - print.h :         {is_include_file: true}
+      - log.c
+      - print.c
+      - pmp.h  :          {is_include_file: true}
+      - pmp_regions.def : {is_include_file: true}
+      - pmp.c
+      - hart.h :          {is_include_file: true}
+      - hart.c
+      - ibex.h :          {is_include_file: true}
+      - ibex.c
+    file_type: swCSource
+  files_irq:
+    depend:
+      - bci:sw:base:1.0
+    files:
+      - irq.h : {is_include_file: true}
+      - irq.c
+    file_type: swCSource
+  files_handler:
+    depend:
+      - bci:sw:base:1.0
+    files:
+      - handler.h :     {is_include_file: true}
+      - handler.c
+    file_type: swCSource
+  files_arch:
+    files:
+      - device.h :     {is_include_file: true} 
+      - device_sim_verilator.c
+    file_type: swCSource
+
+
+targets:
+  default: 
+    filesets:
+      - files_dif
+      - files_testing
+      - files_runtime
+      - files_irq
+      - files_handler
+      - files_arch
