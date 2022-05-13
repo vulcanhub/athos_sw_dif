@@ -2,10 +2,6 @@
 // Licensed under the Apache License, Version 2.0, see LICENSE for details.
 // SPDX-License-Identifier: Apache-2.0
 
-// #include "irq/irq.h"
-// 
-// #include "base/csr.h"
- 
 #include "dif/irq.h"
 
 #include "base/csr.h"

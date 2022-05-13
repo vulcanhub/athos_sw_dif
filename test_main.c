@@ -2,19 +2,6 @@
 // Licensed under the Apache License, Version 2.0, see LICENSE for details.
 // SPDX-License-Identifier: Apache-2.0
 
-// #include "testing/test_main.h"
-// 
-// #include "arch/device.h"
-// #include "dif/dif_uart.h"
-// #include "runtime/log.h"
-// #include "runtime/print.h"
-// #include "testing/check.h"
-// #include "testing/test_coverage.h"
-// #include "testing/test_status.h"
-// 
-// #include "top_athos_sw/sw/autogen/top_athos.h"  // Generated.
-// 
-
 #include "dif/test_main.h"
 
 #include "dif/device.h"
@@ -25,7 +12,7 @@
 #include "dif/test_coverage.h"
 #include "dif/test_status.h"
 
-#include "top_athos_sw/sw/autogen/top_athos.h"  // Generated.
+#include "top/sw/autogen/top_athos.h"  // Generated.
 
 
 

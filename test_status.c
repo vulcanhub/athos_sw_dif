@@ -2,13 +2,6 @@
 // Licensed under the Apache License, Version 2.0, see LICENSE for details.
 // SPDX-License-Identifier: Apache-2.0
 
-// #include "testing/test_status.h"
-// 
-// #include "arch/device.h"
-// #include "base/mmio.h"
-// #include "runtime/hart.h"
-// #include "runtime/log.h"
-
 #include "dif/test_status.h"
 
 #include "dif/device.h"

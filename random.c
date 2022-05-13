@@ -2,13 +2,6 @@
 // Licensed under the Apache License, Version 2.0, see LICENSE for details.
 // SPDX-License-Identifier: Apache-2.0
 
-// #include "testing/random.h"
-// 
-// #include <stdbool.h>
-// #include <stdint.h>
-// 
-// #include "testing/check.h"
-
 #include "dif/random.h"
 
 #include <stdbool.h>

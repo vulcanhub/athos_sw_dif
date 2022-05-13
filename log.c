@@ -2,15 +2,6 @@
 // Licensed under the Apache License, Version 2.0, see LICENSE for details.
 // SPDX-License-Identifier: Apache-2.0
 
-// #include "runtime/log.h"
-// 
-// #include <assert.h>
-// 
-// #include "arch/device.h"
-// #include "base/memory.h"
-// #include "base/mmio.h"
-// #include "runtime/print.h"
-
 #include "dif/log.h"
 
 #include <assert.h>

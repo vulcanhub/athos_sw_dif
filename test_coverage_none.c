@@ -2,7 +2,6 @@
 // Licensed under the Apache License, Version 2.0, see LICENSE for details.
 // SPDX-License-Identifier: Apache-2.0
 
-// #include "testing/test_coverage.h"
 #include "dif/test_coverage.h"
 
 // This NOP function gets linked in when coverage is disabled. See

@@ -2,15 +2,6 @@
 // Licensed under the Apache License, Version 2.0, see LICENSE for details.
 // SPDX-License-Identifier: Apache-2.0
 
-// #include "runtime/pmp.h"
-// 
-// #include <stdbool.h>
-// #include <stddef.h>
-// #include <stdint.h>
-// 
-// #include "base/bitfield.h"
-// #include "base/csr.h"
-
 #include "dif/pmp.h"
 
 #include <stdbool.h>

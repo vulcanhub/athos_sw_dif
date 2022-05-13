@@ -5,13 +5,6 @@
 #ifndef OPENTITAN_SW_DEVICE_LIB_TESTING_CHECK_H_
 #define OPENTITAN_SW_DEVICE_LIB_TESTING_CHECK_H_
 
-// #include <stdbool.h>
-// 
-// #include "base/macros.h"
-// #include "runtime/hart.h"
-// #include "runtime/log.h"
-// #include "testing/test_status.h"
-
 #include <stdbool.h>
 
 #include "base/macros.h"

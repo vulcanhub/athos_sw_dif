@@ -5,12 +5,6 @@
 #ifndef OPENTITAN_SW_DEVICE_LIB_RUNTIME_LOG_H_
 #define OPENTITAN_SW_DEVICE_LIB_RUNTIME_LOG_H_
 
-// #include <stdbool.h>
-// #include <stdint.h>
-// 
-// #include "arch/device.h"
-// #include "base/macros.h"
-
 #include <stdbool.h>
 #include <stdint.h>
 

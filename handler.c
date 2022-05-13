@@ -2,12 +2,6 @@
 // Licensed under the Apache License, Version 2.0, see LICENSE for details.
 // SPDX-License-Identifier: Apache-2.0
 
-// #include "handler/handler.h"
-// 
-// #include "base/csr.h"
-// #include "base/stdasm.h"
-// #include "runtime/log.h"
-
 #include "dif/handler.h"
 
 #include "base/csr.h"

@@ -2,14 +2,6 @@
 // Licensed under the Apache License, Version 2.0, see LICENSE for details.
 // SPDX-License-Identifier: Apache-2.0
 
-// #include "runtime/hart.h"
-// 
-// #include <stdbool.h>
-// 
-// #include "arch/device.h"
-// #include "runtime/ibex.h"
-
-
 #include "dif/hart.h"
 
 #include <stdbool.h>
